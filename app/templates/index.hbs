@@ -4,11 +4,11 @@
 
 <ul>
   {{#each model as |rental|}}
-    <li>{{rental-tile rental=rental}}</li>
+    <li>{{rental-tile rental=rental destroyRental="destroyRental"}}</li>
   {{/each}}
 </ul>
 
-
+{{new-rental saveRental2="saveRentall3"}}
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
